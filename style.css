@@ -1,0 +1,55 @@
+body{
+	overflow-x: hidden;
+}
+#top{
+	background-color: #222222;
+	
+}
+#search{
+	margin-top: 20px;
+}
+.navbar-inverse{
+	border-radius: 0px;
+	border: none;
+	background-color: #222222;
+}
+#myNavbar{
+	padding: 0px !important;
+	margin: 0px;
+}
+#myNavbar li a{
+
+	font-size: 25px;
+	margin-left: 50px; 
+	text-align: center;
+	color: white;
+
+}
+
+#myNavbar li a:hover{
+	color: grey;
+}
+#myCarousel{
+	margin-top: -20px;
+}
+ .carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+    width: 100%;
+    height: 100%
+    margin: auto;
+  }
+  #Notification{
+  	margin-top: 20px;
+  }
+
+#pic td{
+  transition: all 0.5s ease-in-out;
+  padding: 0px;
+  margin: 0px;
+}
+  #pic td:hover{
+
+  transform: scale(1.1,1.1);
+
+  }
+  
