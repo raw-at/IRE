@@ -1,17 +1,30 @@
 body{
-	overflow-x: hidden;
+	overflow-x:hidden;
+	background-color: #f5f5f5;
 }
 #top{
-	background-color: #222222;
+	background-color: #1D1D1D;
 	
 }
 #search{
-	margin-top: 20px;
+margin-top: 15px;
 }
+
 .navbar-inverse{
 	border-radius: 0px;
 	border: none;
-	background-color: #222222;
+	background-color:#808080;
+}
+#logo_name{
+	font-family: 'Anton', sans-serif;
+	color:	white;
+	font-size: 40px;
+}
+#full-form{
+	color: 	#55ffee;
+	margin-top: 12px;
+	margin-left:10px;
+	font-size: 20px;
 }
 #myNavbar{
 	padding: 0px !important;
@@ -20,18 +33,19 @@ body{
 #myNavbar li a{
 
 	font-size: 25px;
-	margin-left: 50px; 
-	text-align: center;
-	color: white;
+	font-family: 'Inconsolata', monospace;
+	margin-left: 25px;
+	text-align: center`;
+	color: #f2f2f2;
 
 }
-
+#Browse-button{
+	margin-top: 15px;
+}
 #myNavbar li a:hover{
-	color: grey;
+	color:#b3cfff;
 }
-#myCarousel{
-	margin-top: -20px;
-}
+
  .carousel-inner > .item > img,
  .carousel-inner > .item > a > img {
     width: 100%;
@@ -52,4 +66,8 @@ body{
   transform: scale(1.1,1.1);
 
   }
-  
+
+#emergency-bar{
+	margin-top: -20px;
+	background-color:#ff3232;
+}
