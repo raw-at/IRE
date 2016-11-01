@@ -75,7 +75,9 @@ margin-top: 15px;
 .responsive-width{
 	font-size: 2vw;
 }
-
+#pagination li a{
+	color:black;
+}
 @media only screen and (max-width: 800px)
 {
 }
