@@ -4,7 +4,7 @@ body{
 }
 #top{
 	background-color: #1D1D1D;
-	
+
 }
 #search{
 margin-top: 15px;
@@ -70,4 +70,12 @@ margin-top: 15px;
 #emergency-bar{
 	margin-top: -20px;
 	background-color:#ff3232;
+}
+
+.responsive-width{
+	font-size: 2vw;
+}
+
+@media only screen and (max-width: 800px)
+{
 }
